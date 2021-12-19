@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  tp4devops:
+    image: tp4devops
+    build:
+      context: .
+      dockerfile: ./Dockerfile
